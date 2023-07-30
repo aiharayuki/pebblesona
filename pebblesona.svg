@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" height="400" width="500">
+  <!-- Pebble body -->
+  <ellipse cx="250" cy="310" rx="240" ry="250" fill="#5555fe" />
+ 
+  <!-- Outer Jewel -->
+  <polygon points="100,250 140,200 180,250 140,300 " fill="#A8C3BC" stroke="black" stroke-width="2" />
+  <!-- Inner Jewel -->
+  <polygon points="120,250 140,220 160,250 140,280 " fill="#b74dde" stroke="black" stroke-width="2" />
+  <!-- Jewel part lower left -->
+  <polygon points="100,250 120,250 140,280 140,300" fill="#b74dde" stroke="black" stroke-width="2" />
+  <!-- Jewel part lower right -->  
+  <polygon points="180,250 160,250 140,280 140,300" fill="#b74dde" stroke="black" stroke-width="2" />
+  <!-- Jewel part upper left -->
+  <polygon points="100,250 120,250 140,220 140,200" fill="aquamarine" stroke="black" stroke-width="2" />
+  
+  <!-- Jewel shade -->
+  <path d="M 120 275 Q 140 250 160 275" fill="#640080"/>
+  <polygon points="120,275 140,300 160,275" fill="#640080" />
+  <!-- Fix lines in jewel -->
+  <polyline points="120,275 140,300 160,275" fill="transparent" stroke="black" stroke-width="2"  /> 
+  <polyline points="120,250 140,280 160,250" fill="transparent" stroke="black" stroke-width="2"  /> 
+  <line x1="140" y1="280" x2="140" y2="300" stroke="black" stroke-width="2"  />
+
+  <!-- Cheeks -->
+  <g fill="#a8a858">
+    <circle cx="80" cy="350" r="20" />
+    <circle cx="170" cy="350" r="20" />
+  </g>
+  <!-- Eyes -->
+  <g stroke="black" stroke-width="3" fill="white">
+    <circle cx="90" cy="330" r="25" />
+    <circle cx="180" cy="330" r="25" />
+  </g>
+  <!-- Iris -->
+  <g stroke="black" stroke-width="3" fill="black">
+    <circle cx="80" cy="340" r="10" />
+    <circle cx="170" cy="340" r="10" />
+  </g>
+
+  <!-- Mouth -->
+  <polyline points="120,360 130,380 140,360" fill="transparent" stroke="black" stroke-width="4"  /> 
+
+  <!-- Lighting -->
+  <path d="M 400 200 C 200 100 450 60 400 200" fill="white"/>
+  <circle cx="410" cy="220" r="15" fill="white" />
+
+  Sorry, your browser does not support inline SVG.
+</svg>
