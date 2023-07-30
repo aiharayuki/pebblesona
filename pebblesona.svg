@@ -14,7 +14,7 @@
   <polygon points="100,250 120,250 140,220 140,200" fill="aquamarine" stroke="black" stroke-width="2" />
   
   <!-- Jewel shade -->
-  <path d="M 120 275 Q 140 250 160 275" fill="#640080"/>
+  <path d="M 120 276 Q 140 250 160 276" fill="#640080"/>
   <polygon points="120,275 140,300 160,275" fill="#640080" />
   <!-- Fix lines in jewel -->
   <polyline points="120,275 140,300 160,275" fill="transparent" stroke="black" stroke-width="2"  /> 
