@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" height="400" width="500">
-  <!-- Pebble body -->
+  <!-- Pebble body; The lower part of the ellipse is out of bounds, feel free to cut it out if necessary -->
   <ellipse cx="250" cy="310" rx="240" ry="250" fill="#5555fe" />
  
   <!-- Outer Jewel -->
@@ -17,8 +17,8 @@
   <path d="M 120 276 Q 140 250 160 276" fill="#640080"/>
   <polygon points="120,275 140,300 160,275" fill="#640080" />
   <!-- Fix lines in jewel -->
-  <polyline points="120,275 140,300 160,275" fill="transparent" stroke="black" stroke-width="2"  /> 
-  <polyline points="120,250 140,280 160,250" fill="transparent" stroke="black" stroke-width="2"  /> 
+  <polyline points="120,275 140,300 160,275" fill="none" stroke="black" stroke-width="2"  /> 
+  <polyline points="120,250 140,280 160,250" fill="none" stroke="black" stroke-width="2"  /> 
   <line x1="140" y1="280" x2="140" y2="300" stroke="black" stroke-width="2"  />
 
   <!-- Cheeks -->
@@ -38,7 +38,7 @@
   </g>
 
   <!-- Mouth -->
-  <polyline points="120,360 130,380 140,360" fill="transparent" stroke="black" stroke-width="4"  /> 
+  <polyline points="120,360 130,380 140,360" fill="none" stroke="black" stroke-width="4"  /> 
 
   <!-- Lighting -->
   <path d="M 400 200 C 200 100 450 60 400 200" fill="white"/>
